@@ -1,8 +1,8 @@
-# Wargame: Red Dragon Sandbox for macOS
+# Wargame: Red Dragon Sandbox Patcher for macOS
 
-An unofficial macOS Apple Silicon patcher for selected Sandbox Mod features in the Steam version of Wargame: Red Dragon.
+An unofficial macOS Apple Silicon patcher for selected community Sandbox Mod features in the Steam version of Wargame: Red Dragon.
 
-This is not the full Windows Sandbox Mod Installer. It only applies the game-data changes listed below; Steam and the game itself are not included.
+This is a separate macOS implementation inspired by the community Sandbox Mod Installer. It is not an official macOS version of that project, and it does not install the full Windows Sandbox Mod package.
 
 ## What it changes
 
@@ -24,7 +24,15 @@ The changes are local to your installed game files.
 
 Requirements: an Apple Silicon Mac (M1/M2/M3/M4), the Steam version of Wargame: Red Dragon, and an internet connection for the first setup.
 
-1. Open **Terminal** (`Applications` → `Utilities` → `Terminal`) and install [`uv`](https://docs.astral.sh/uv/getting-started/installation/):
+1. Open **Terminal** (`Applications` → `Utilities` → `Terminal`) and install [`uv`](https://docs.astral.sh/uv/getting-started/installation/).
+
+   If you already have Homebrew, use:
+
+   ```bash
+   brew install uv
+   ```
+
+   Otherwise, use the official installer:
 
    ```bash
    curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -85,7 +93,7 @@ If Terminal says `uv: command not found`, close and reopen Terminal and try agai
 
 ## Acknowledgments
 
-Inspired by [Sandbox Mod Installer](https://github.com/TheWRDNoob/Sandbox-Mod-Installer).
+This project was inspired by the community [Sandbox Mod Installer](https://github.com/TheWRDNoob/Sandbox-Mod-Installer). The original installer is a separate project and is not an official component of this repository; see its [license](https://github.com/Noob-Development/Sandbox-Mod-Installer/blob/main/license) for its own terms.
 
 This project declares the following AGPL-licensed upstream packages, both maintained by [ev1313](https://github.com/ev1313):
 

@@ -42,8 +42,8 @@ Requirements: an Apple Silicon Mac (M1/M2/M3/M4), the Steam version of Wargame: 
 2. Get the project. **Recommended:** open Terminal and run:
 
    ```bash
-   git clone https://github.com/HMWCS/wrd-macos-sandbox.git
-   cd wrd-macos-sandbox
+   git clone https://github.com/HMWCS/wargame-red-dragon-sandbox-macos.git
+   cd wargame-red-dragon-sandbox-macos
    ```
 
    If you do not use Git, click **Code** → **Download ZIP**, unzip it, then type `cd ` in Terminal, drag the project folder into the window, and press **Return**.

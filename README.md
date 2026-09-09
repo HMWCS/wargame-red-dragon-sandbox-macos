@@ -2,7 +2,6 @@
 
 An unofficial macOS Apple Silicon patcher for selected community Sandbox Mod features in the Steam version of Wargame: Red Dragon.
 
-This is a separate macOS implementation inspired by the community Sandbox Mod Installer. It is not an official macOS version of that project, and it does not install the full Windows Sandbox Mod package.
 
 ## What it changes
 
@@ -88,12 +87,10 @@ If Terminal says `uv: command not found`, close and reopen Terminal and try agai
 
 - This project has been tested on Apple Silicon macOS only.
 - Close the game before changing files.
-- This project does not include or distribute any game files.
-- It is unofficial and is not affiliated with Eugen Systems, Focus Entertainment, or Valve.
 
 ## Acknowledgments
 
-This project was inspired by the community [Sandbox Mod Installer](https://github.com/TheWRDNoob/Sandbox-Mod-Installer). The original installer is a separate project and is not an official component of this repository; see its [license](https://github.com/Noob-Development/Sandbox-Mod-Installer/blob/main/license) for its own terms.
+Inspired by [Sandbox Mod Installer](https://github.com/TheWRDNoob/Sandbox-Mod-Installer).
 
 This project declares the following AGPL-licensed upstream packages, both maintained by [ev1313](https://github.com/ev1313):
 

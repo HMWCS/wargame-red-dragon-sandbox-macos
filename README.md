@@ -42,7 +42,7 @@ Requirements: an Apple Silicon Mac (M1/M2/M3/M4), the Steam version of Wargame: 
 
 2. On this GitHub page, click **Code** → **Download ZIP**, then unzip the downloaded file.
 
-3. In Terminal, type `cd ` (including the trailing space), drag the unzipped `wrd-macos-sandbox` folder into the Terminal window, and press **Return**.
+3. In Terminal, type `cd ` (including the trailing space), drag the unzipped project folder into the Terminal window, and press **Return**.
 
 4. Close Wargame: Red Dragon, then run:
 

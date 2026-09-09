@@ -39,11 +39,16 @@ Requirements: an Apple Silicon Mac (M1/M2/M3/M4), the Steam version of Wargame: 
 
    `uv` manages the required Python version and project dependencies, so you normally do not need to install Python separately. Close and reopen Terminal after installation.
 
-2. On this GitHub page, click **Code** → **Download ZIP**, then unzip the downloaded file.
+2. Get the project. **Recommended:** open Terminal and run:
 
-3. In Terminal, type `cd ` (including the trailing space), drag the unzipped project folder into the Terminal window, and press **Return**.
+   ```bash
+   git clone https://github.com/HMWCS/wrd-macos-sandbox.git
+   cd wrd-macos-sandbox
+   ```
 
-4. Close Wargame: Red Dragon, then run:
+   If you do not use Git, click **Code** → **Download ZIP**, unzip it, then type `cd ` in Terminal, drag the project folder into the window, and press **Return**.
+
+3. Close Wargame: Red Dragon, then run:
 
    ```bash
    uv run wrd-sandbox on

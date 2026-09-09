@@ -21,7 +21,7 @@ The changes are local to your installed game files.
 
 ## Install and use
 
-Requirements: an Apple Silicon Mac (M1/M2/M3/M4), the Steam version of Wargame: Red Dragon, and an internet connection for the first setup.
+Requirements: an Apple Silicon Mac, the Steam version of Wargame: Red Dragon, and an internet connection for the first setup.
 
 1. Open **Terminal** (`Applications` → `Utilities` → `Terminal`) and install [`uv`](https://docs.astral.sh/uv/getting-started/installation/).
 
